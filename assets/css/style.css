@@ -1,11 +1,52 @@
-header button:hover {
-    background-color: black !important;
-    color: white !important;
 
+.navbar{
+    position: fixed;
 }
-.container-bg {
-    background-image: url(../images/backgroundimage.jpg) !important; 
-    background-size: 100%;
-    background-repeat: no-repeat;
-    padding-top: 300px;
+
+header .btn {
+    padding: 0.8em 1.8em;
+    border: 2px solid #17C3B2;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #17C3B2;
+   }
+
+header .btn::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #17C3B2;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+header .btn:hover::before {
+    width: 105%;
+   }
+   
+header .btn:hover {
+    color: #111;
+   }
+
+.landing {
+    background-image: url(../images/background2.webp) !important;
+    object-fit: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.headings{
+    height: 100vh;
 }
