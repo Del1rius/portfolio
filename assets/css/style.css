@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
+body{
+    font-family: 'Roboto Mono', monospace !important;
+}
 .navbar{
     position: fixed;
 }
@@ -48,5 +52,12 @@ header .btn:hover {
 }
 
 .headings{
+    height: 100vh;
+}
+
+.contact {
+    background-image: url(../images/contactwallpaper.jpg) !important;
+    object-fit: cover;
+    background-position: center;
     height: 100vh;
 }
