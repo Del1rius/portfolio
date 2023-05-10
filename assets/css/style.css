@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Roboto Mono', monospace !important;
+    overflow-x: hidden;
 }
 .navbar{
     position: fixed;
@@ -61,3 +62,4 @@ header .btn:hover {
     background-position: center;
     height: 100vh;
 }
+
