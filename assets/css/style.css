@@ -60,6 +60,8 @@ header .btn:hover {
     background-image: url(../images/contactwallpaper.jpg) !important;
     object-fit: cover;
     background-position: center;
-    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
 }
 
