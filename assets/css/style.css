@@ -65,3 +65,12 @@ header .btn:hover {
     padding: 20px;
 }
 
+.carousel-background {
+    background-image: url(../images/backgrounds.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 100vh;
+}
+
