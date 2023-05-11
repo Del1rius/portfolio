@@ -38,25 +38,27 @@
     </header>
     <div class="container text-dark text-center">
         <h2 class="display-3 pb-2 mb-2 text-center fw-bold text-info">Contact Me!</h2>
-        <form class="pb-2 mb-2 text-info rounded-3 contact " action="https://formspree.io/f/moqzrgag" method="post">
+        <div class="pb-2 mb-2 text-info rounded-3 contact">
+        <form action="https://formspree.io/f/moqzrgag" method="post">
             <div class="mb-3 fs-3">
-                <label for="name" class="form-label">Name: </label>
-                <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
+                <label for="exampleFormControlInput1" class="form-label">Name: </label>
+                <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" required>
               </div>
             <div class="mb-3 fs-3">
               <label for="exampleInputEmail1" class="form-label">Email address: </label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
             </div>
             <div class="mb-3 fs-3">
               <label for="exampleInputCellphone1" class="form-label">CellPhone Number: </label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div class="text-center">
+              <input type="cellphoneNumber" class="form-control" id="exampleInputCellPhoneNumber1" required>
+            </div>
             <div class="mb-3 fs-3">
-                <label for="exampleInputCellphone1" class="form-label">Your Message: </label>
+                <label for="exampleInputYourMessage1" class="form-label">Your Message: </label>
                 <textarea class="form-control" id="exampleFormControlTextArea1" rows="3"></textarea>
             </div>
             <button type="submit" class="btn btn-info">Submit</button>
           </form>
+        </div>
     </div>
     <footer class="text-center bg-white text-dark rounded-5 pt-2 m-2">
       <a href="https://github.com/Del1rius"><img src="./assets/icons/icons8-github.gif" alt="github"></a>
