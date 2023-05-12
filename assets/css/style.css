@@ -75,7 +75,7 @@ header .btn:hover {
 }
 
 .glitch {
-    font-size: 7vh;
+    font-size: 5vh;
     font-weight: bold;
     position: relative;
     text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
@@ -132,4 +132,20 @@ header .btn:hover {
       text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff,
         -0.04em -0.025em 0 #fffc00;
     }
+  }
+
+  @media screen and (max-width:320px) {
+    .glitch {
+      font-size: 2vh;
+    }
+    .name-title {
+      font-size: 20px !important;
+    }
+    /* .landing {
+      background-image: url(../images/background2.webp) !important;
+      object-fit: cover;
+      background-position: center;
+      height: 100vh;
+  } */
+  
   }
